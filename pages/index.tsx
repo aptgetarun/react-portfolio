@@ -68,7 +68,7 @@ export default function Home() {
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-72 h-72 relative overflow-hidden mt-20 md:h-96 md:w-96">
              
-             <Image src={deved} layout="fill" objectFit="cover" />
+             <Image alt="portfolio" src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} className='ml-20' />
+              <Image alt="portfolio" src={design} width={100} height={100} className='ml-20' />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Projects developed
               </h3>
@@ -102,7 +102,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">E commerce website</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} className='ml-20' />
+              <Image alt="portfolio" src={code} width={100} height={100} className='ml-20' />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Technologies i know
               </h3>
@@ -117,7 +117,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Cyber Security</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} className='ml-20' />
+              <Image alt="portfolio" src={consulting} width={100} height={100} className='ml-20' />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Contact Me</h3>
               <p className="py-2">
                 Kindly contact me on
@@ -142,7 +142,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <Image
+              <Image alt="portfolio"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -151,7 +151,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
+              <Image alt="portfolio"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -160,7 +160,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
+              <Image alt="portfolio"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -169,7 +169,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
+              <Image alt="portfolio"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -178,7 +178,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
+              <Image alt="portfolio"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -187,7 +187,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
+              <Image alt="portfolio"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
